@@ -3,4 +3,4 @@
 
 Aprendendo a criar sites e gerenciar meu repositórios.
 
-<a href="https://josimarmg.github.io/html5-css3/desafios-propostos/d001/mensagens.html">Execucar o exercício - 001
+<a href="https://josimarmg.github.io/html5-css3/desafios-propostos/d001/mensagens.html">Executar o exercício - 001
