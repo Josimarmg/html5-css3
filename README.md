@@ -1,6 +1,17 @@
 # html5-css3
- Curso sobre HTML5 e CSS3 pelo CursoemVideo
+ #Curso sobre HTML5 e CSS3 pelo CursoemVideo
 
-Aprendendo a criar sites e gerenciar meu repositórios.
+####Professor - @gustavoguanabara
 
-<a href="https://josimarmg.github.io/html5-css3/desafios-propostos/d001/mensagens.html">Executar o exercício - 001
+##Exercícios
+
+<ul> 
+    <li> Exercício 001
+        <ul>
+            <li><a href="https://github.com/Josimarmg/html5-css3/blob/main/modulo-1/ex001/index.html"></a>Olá Mundo</li>
+        </ul>
+    </li>
+</ul>
+
+
+##Desafios Propostos
