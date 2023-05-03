@@ -1,17 +1,22 @@
 # html5-css3
- #Curso sobre HTML5 e CSS3 pelo CursoemVideo
+ # Curso sobre HTML5 e CSS3 pelo @CursoemVideo
 
-####Professor - @gustavoguanabara
+#### Professor - @gustavoguanabara
 
-##Exercícios
+### Exercícios e Desafios Propostos
+## Exercícios
 
-<ul> 
-    <li> Exercício 001
-        <ul>
-            <li><a href="https://github.com/Josimarmg/html5-css3/blob/main/modulo-1/ex001/index.html"></a>Olá Mundo</li>
-        </ul>
-    </li>
-</ul>
+**[ex022 - background](https://github.com/Josimarmg/html5-css3/tree/main/modulo-3/ex022)**
+- Imagem de Fundo
+  - background-color
+  - background-image: linear-gradient();
+  - background-image: url();
+- Personlização dos Fundos
+  - background-size
+  - background-reapeat
+- Posição dos Fundos
+  - background-position
+  - height: 100vh;
 
 
 ##Desafios Propostos
