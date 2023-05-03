@@ -1,5 +1,5 @@
 # html5-css3
- # Curso sobre HTML5 e CSS3 pelo @CursoemVideo
+ ## Curso sobre HTML5 e CSS3 pelo @CursoemVideo
 
 #### Professor - @gustavoguanabara
 
@@ -11,9 +11,12 @@
   - background-color
   - background-image: linear-gradient();
   - background-image: url();
+  [Executar exercício](https://josimarmg.github.io/html5-css3/modulo-3/ex022/fundo001.html)
+
 - Personlização dos Fundos
   - background-size
   - background-reapeat
+  
 - Posição dos Fundos
   - background-position
   - height: 100vh;
