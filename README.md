@@ -23,5 +23,9 @@
   - height: 100vh;
 <br>
 <br>
+- **Alinhamento Vertical** | [*Executar exercício 7*](https://josimarmg.github.io/html5-css3/modulo-3/ex022/fundo007.html)
+  - position
+  - transform
+  
 
 ## Desafios Propostos
