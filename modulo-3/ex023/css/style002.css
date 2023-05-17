@@ -1,0 +1,62 @@
+@charset "UTL-F";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 30px 0 30px 30px;
+    padding: 5px;
+}
+
+table {
+    width: 500px;  
+    border-collapse: collapse;
+    margin-left: 15px;
+    position: relative;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+thead, tfoot {
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+}
+
+thead > tr > th {
+    position: sticky; /* Cola o título das duas colunas */
+    top: -1px;
+    background-color: gray;
+}
+
+tbody > tr:nth-child(odd) { /* 2n-1 Filhos ímpares */
+    background-color: white;
+}
+
+tbody > tr:nth-child(even) { /* 2n Filhos páres */
+    background-color: lightgray;
+}
+
+/* tbody > tr:nth-child(2en) {  // Pseudoclasse. De 2 em 2 filho
+    background-color: lightgray;
+} */
+
+td.num {
+    text-align: right;
+}
