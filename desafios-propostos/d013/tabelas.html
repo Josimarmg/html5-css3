@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font: normal 1.2em 'Arial', Helvetica, sans-serif;
+            margin: 40px 20px;
+        }
+
+        p {
+            text-indent: 20px;
+        }
+
+        table {
+            width: 300px;
+            border-collapse: separate;
+            margin-bottom: 50px;
+        }
+
+        td {
+            border: 2px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        td.cor {
+            background-color: orange;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Desafios de tabelas em HTML</h1>
+    <h2>Desafio d013:</h2>
+    <p>Criar uma tabela 4x5 com mesclagem de células.</p>
+    <p> <strong>Tabela 1</strong> <br>
+        A linha 1 da 3ª coluna(3), ocupará 2 linhas. A linha 3 da 1ª coluna(8), ocupará 3 colunas. <br> A linha 4 da 1ª coluna(10),
+        ocupará 2 linhas. E na linha 2 da 2ª coluna(11), ocupará 2 colunas.
+    </p>
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="2" class="cor">3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="cor">8</td>
+            <td>9</td>
+
+        </tr>
+        <tr>
+            <td rowspan="2" class="cor">10</td>
+            <td colspan="2" class="cor">11</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+        </tr>
+    </table>
+
+    <p> <strong>Tabela 2</strong> <br>
+        A coluna 1 na 1ª linha(A), ocupará 4 colunas. A linha 1 da 5ª coluna(B), ocupará 4 linhas. <br> A linha 2 da 1ª coluna(C), ocupará 4 linhas. E a coluna 2 na 5ª linha(N), ocupará 4 colunas.
+    </p>
+
+    <table>
+        <tr>
+            <td colspan="4" class="cor">A</td>
+            <td rowspan="4" class="cor">B</td>
+        </tr>
+        <tr>
+            <td rowspan="4" class="cor">C</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>J</td>
+            <td>L</td>     
+            <td>M</td>
+        </tr>
+        <tr>
+            <td colspan="4" class="cor">N</td>
+        </tr>
+    </table>
+</body>
+
+</html>
