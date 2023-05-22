@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font: normal 1.2em 'Arial', Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-variant: small-caps;
+            margin: 20px;
+        }
+
+        h3 {
+            margin: 0 20px 2.5px 20px;
+        }
+
+        p {
+            margin: 2.5px 20px 30px 30px;
+        }
+
+        table {
+            width: 500px;
+            margin: 20px;
+            border-collapse: collapse;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        caption {
+            background-color: rgba(128, 128, 128, 0.3);
+            color: rgba(165, 42, 42, 0.8);
+            font-size: 1.2em;
+            font-weight: bold;
+            text-decoration: underline;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+            padding: 10px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th, .cor-media {
+            background-color: gray;
+            color: white;
+        }
+
+        th.cor {
+            background-color: white;
+            color: black;
+        }
+        
+        .posicao {
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Desafios de Tabelas</h1>
+    <h3>Descrição:</h3>
+    <p>
+        "Tabela completa sobre as notas de um determinado aluno ou turma".
+    </p>
+    <table>
+        <caption>Boletim</caption>
+        <thead>
+            <tr>
+                <th rowspan="2" scope="rowgroup">Área</th>
+                <th rowspan="2" scope="rowgroup">Disciplina</th>
+                <th colspan="2" scope="colgroup">Notas</th>
+                <th rowspan="2" scope="rowgroup">Média</th>
+            </tr>
+            <tr>
+                <th scope="rowgroup">Nota 1</th>
+                <th scope="rowgroup">Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup" class="cor">Exatas</th>
+                <td class="posicao">Matemática</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="posicao">Física</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="posicao">Química</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="posicao">Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" scope="colgroup"  class="posicao">Média de Exatas</th>
+                <td class="cor-media">0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="rowgroup" class="cor">Humanas</th>
+                <td class="posicao">História</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="posicao">Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" scope="colgroup" class="posicao">Média de Humanas</th>
+                <td class="cor-media">0.0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
