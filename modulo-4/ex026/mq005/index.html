@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header>
-        <h1>Meu Site</h1>
-        <menu>
+        <h1>Inteligência Artificial: <br> Explorando o Potencial e os Desafios de uma Tecnologia Emergente</h1>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -21,20 +23,30 @@
     </header>
     <main>
         <article>
-            <h2>Testando Media Queries</h2>
+            <h2>A IA como Ferramenta Transformadora: Avanços, Ética e Responsabilidade</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium illo praesentium obcaecati porro perferendis hic beatae tenetur ut officiis, suscipit assumenda sed maiores quas eos temporibus aspernatur rerum dolore facilis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores optio modi exercitationem, maxime, libero voluptatum commodi ab fuga illo, aut enim minima molestiae perspiciatis voluptatem architecto corporis impedit odio magni.
+                Uma temática relevante a ser abordada é a inteligência artificial (IA). A IA é um campo da ciência da computação que se dedica ao desenvolvimento de sistemas capazes de executar tarefas que normalmente requerem inteligência humana. Essa tecnologia tem se destacado em diversos setores, como medicina, indústria, transporte e finanças, entre outros.
             </p>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium illo praesentium obcaecati porro perferendis hic beatae tenetur ut officiis, suscipit assumenda sed maiores quas eos temporibus aspernatur rerum dolore facilis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores optio modi exercitationem, maxime, libero voluptatum commodi ab fuga illo, aut enim minima molestiae perspiciatis voluptatem architecto corporis impedit odio magni.
+                Um dos aspectos mais interessantes da IA é sua capacidade de aprendizado, conhecida como aprendizado de máquina. Por meio desse processo, os sistemas de IA são capazes de analisar grandes volumes de dados e identificar padrões, aprimorando seu desempenho ao longo do tempo. Isso tem possibilitado avanços significativos em áreas como diagnóstico médico, detecção de fraudes e personalização de recomendações.
             </p>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium illo praesentium obcaecati porro perferendis hic beatae tenetur ut officiis, suscipit assumenda sed maiores quas eos temporibus aspernatur rerum dolore facilis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores optio modi exercitationem, maxime, libero voluptatum commodi ab fuga illo, aut enim minima molestiae perspiciatis voluptatem architecto corporis impedit odio magni.
+                Entretanto, é importante considerar os desafios éticos e sociais associados à IA. O uso indiscriminado de tecnologias de IA pode levantar questões relacionadas à privacidade e segurança dos dados, além de gerar preocupações sobre o impacto no mercado de trabalho, com possíveis substituições de postos ocupacionais por máquinas. A discussão sobre a responsabilidade e transparência dos sistemas de IA também é fundamental para garantir a confiança e a justiça na sua aplicação.
             </p>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium illo praesentium obcaecati porro perferendis hic beatae tenetur ut officiis, suscipit assumenda sed maiores quas eos temporibus aspernatur rerum dolore facilis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores optio modi exercitationem, maxime, libero voluptatum commodi ab fuga illo, aut enim minima molestiae perspiciatis voluptatem architecto corporis impedit odio magni.
+                Diante desse contexto, é essencial fomentar a pesquisa e o desenvolvimento de IA de forma responsável e inclusiva. É importante investir em programas de educação e treinamento para capacitar profissionais na área, bem como promover o diálogo entre diferentes setores da sociedade para definir diretrizes éticas e regulatórias adequadas. Dessa forma, poderemos aproveitar todo o potencial da IA para impulsionar avanços científicos, tecnológicos e sociais, ao mesmo tempo em que garantimos seu uso em benefício da humanidade.
             </p>
         </article>
     </main>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
